@@ -1,0 +1,271 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>培养计划</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/css_slider1/default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/css_slider1/nivo-slider.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/hover.css" rel="stylesheet" type="text/css" />
+<link href="css/columns.css" rel="stylesheet" type="text/css" />
+<link href="css/hover_image.css" rel="stylesheet" type="text/css" />
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+<link href="css/buttons.css" rel="stylesheet" type="text/css" />
+<link href="css/widgets.css" rel="stylesheet" type="text/css" />
+<link href="css/light.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+<!--[if IE 8]>
+<link href="css/style_IE.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<script type="text/javascript" src="js/ie.html5.js"></script>
+
+
+<!-- JQUERY -->
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<!-- JQUERY_UI -->
+<script type="text/javascript" src="js/jquery.ui.core.js"></script>
+
+<!-- SLIDER -->
+<script type="text/javascript" src="js/jquery.cycle.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$("#scroller .items").cycle({ 
+    		fx: 'scrollUp' 	
+		});
+	});
+</script>
+
+<!-- SLIDER_NIVO 
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('.nivo_slider').nivoSlider({
+			manualAdvance: true,
+			directionNavHide:true});
+    });
+</script>
+-->
+
+<!-- SLIDER_TIMELINE -->
+<script type="text/javascript" src="js/jquery.timeline.min.js"></script>
+<script type="text/javascript">
+
+$(window).load(function() {
+	// dark
+	$('.timelineLight').timeline({
+		openTriggerClass : '.read_more',
+		startItem : '01/09/2015'
+	});
+});
+</script>
+
+ 
+<!-- MENU -->
+<script type="text/javascript" src="js/menu.js"></script> 	
+<script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+
+<!-- SERVICES -->
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/services.js"></script>
+<!-- HOVER_BUTTON -->
+<script type="text/javascript" src="js/hover.js"></script>
+<script type="text/javascript" src="js/buttons.js"></script>
+
+
+<!-- IMAGE -->
+<script src="js/image.js" type="text/javascript"> </script>
+<script src="js/lightbox.js" type="text/javascript"></script>
+<script src="js/jquery.capSlide.js" type="text/javascript"></script>
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+
+<body>
+
+
+<!-- BEGIN menu -->
+<header id="navigation" class="navbar navbar-inverse">
+            <div class="container">
+
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="../index.html"><h2>主页</h2></a></li>
+                        <li><a href="../blog/index.html"><h2>技能必备</h2></a></li>
+                        <li class="current"><a href="index.html"><h2>培养计划</h2></a></li>
+                        <li><a href="../blog/tech.html"><h2>业务学习</h2></a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+
+<!-- BEGIN TIMELINE -->
+<div class="timelineLight t1">
+		<div class="item" data-id="13/07/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/1a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/1.jpg" alt="" />
+			</a>
+			<h2>入职一周</h2>
+			<span>完成工作环境配置，熟悉部门业务。</span>
+			<div class="read_more" data-id="13/07/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="13/07/2015">
+			<img class="con_borderImage" src="images/timeline_content/1w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">一周计划</h2>
+			导师任务：了解新员工个人情况，带领其熟悉周围环境，协助配置工作环境. <br /><br />
+			
+			员工任务：熟悉周围环境，完成工作环境配置，了解业务需求.
+			</div>
+		</div>
+		
+		<div class="item" data-id="20/07/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/2a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/2.jpg" alt="" />
+			</a>
+			<h2>入职两周</h2>
+			<span>制定月度计划，按计划学习业务知识，提高业务技能。</span>
+			<div class="read_more" data-id="20/07/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="20/07/2015">
+			<img class="con_borderImage" src="images/timeline_content/2w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">两周计划</h2>
+			导师任务：根据新员工自身特点，制定适宜的月度计划。同时跟踪业务学习情况，及时指导. <br /><br />
+			
+			员工任务：按计划学习总结，及时输出。参与新人培养计划，独立完成布置任务.
+			</div>
+		</div>
+		
+		<div class="item" data-id="01/08/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/3a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/3.jpg" alt="" />
+			</a>
+			<h2>入职一月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/08/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/08/2015">
+			<img class="con_borderImage" src="images/timeline_content/3w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职一月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+
+		
+		<div class="item" data-id="01/09/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/8a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/8.jpg" alt="" />
+			</a>
+			<h2>入职两月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/09/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/09/2015">
+			<img class="con_borderImage" src="images/timeline_content/8w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职两月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+		
+		<div class="item" data-id="01/10/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/9a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/9.jpg" alt="" />
+			</a>
+			<h2>入职三月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/09/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/09/2015">
+			<img class="con_borderImage" src="images/timeline_content/9w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职三月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+		
+		<div class="item" data-id="01/11/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/10a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/10.jpg" alt="" />
+			</a>
+			<h2>入职四月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/11/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/11/2015">
+			<img class="con_borderImage" src="images/timeline_content/10w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职四月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+		
+		<div class="item" data-id="01/12/2015" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/11a.jpg" rel="lightbox[timeline]">
+			<img src="images/thumbnails/11.jpg" alt="" />
+			</a>
+			<h2>入职五月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/12/2015">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/12/2015">
+			<img class="con_borderImage" src="images/timeline_content/11w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职五月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+		
+		<div class="item" data-id="01/01/2016" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+			<a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/thumbnails/12a.jpg" rel="lightbox[timeline]">
+				<img src="images/thumbnails/12.jpg" alt="" />
+			</a>
+			<h2>入职六月</h2>
+			<span>完成月度总结，根据完成情况制定下月计划</span>
+			<div class="read_more" data-id="01/01/2016">详细计划</div>
+		</div>
+		<div class="item_open" data-id="01/01/2016">
+			<img class="con_borderImage" src="images/timeline_content/12w.jpg" />
+			<div class="timeline_open_content">
+			<h2 class="no-marg-top">入职六月</h2>
+			导师任务：跟踪关闭月度计划电子流，及时与新人进行思想沟通，制定下月计划. <br /><br />
+			
+			员工任务：完成月度总结，反省学习情况。根据下月月度计划，制定学习安排.
+			</div>
+		</div>
+
+</div> <!-- /END TIMELINE -->
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!-- our tutors -->
+	<div class="our tutors">
+		<div class="container">
+			 <div class="view view-fifth">
+				<a href="#"><img src="images/2.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A wonderful serenity has taken possession of my entire soul.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+				
+			<div class="view view-fifth">
+				<a href="#"><img src="images/3.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A possession of my entire soul, like these sweet mornings.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/4.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A serenity has taken possession  like these sweet mornings.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/5.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A has taken possession of my entire soul, li sweet mornings.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/6.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A entire possession of my  soul, like these sweet mornin which.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/7.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A mornings possession of my entire soul, like these sweet.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/8.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                  <h4>Lorem Ipsum</h4>
+                   <p>A like possession of my entire soul,  sweet mornings of spring.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="view view-fifth">
+				<a href="#"><img src="images/9.jpg" class="img-responsive" alt=""></a>
+				<div class="mask">
+                   <h4>Lorem Ipsum</h4>
+                   <p>A spring which  of my entire soul, like these sweet mornings.</p>
+                   <a href="single.html" class="info">Read More</a>
+                </div>
+             </div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- our tutors -->
